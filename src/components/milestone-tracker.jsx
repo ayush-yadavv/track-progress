@@ -46,7 +46,7 @@ const milestones = [
 
 export function MilestoneTracker({
   totalParticipants = 80,
-  currentParticipants = 20,
+  currentParticipants = 14,
 }) {
   const [progress, setProgress] = useState(Array(5).fill(0));
   const [winners, setWinners] = useState(Array(5).fill(""));
